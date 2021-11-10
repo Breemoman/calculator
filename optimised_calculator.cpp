@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 int main() {
-    int first_number;
-    int second_number;
+    int first_number, second_number;
+    
     string op;
     cout << "enter first number: " << endl;
     cin >> first_number;
