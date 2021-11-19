@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main_func(int second_number,string op,int equals) {
+     if (op == "+") {
+     int x = 0;
+     x -= second_number;
+     equals -= second_number;
+     x = equals;
+     return x;
+ }
+     else {cout << "invalid op" << endl;}
+}
+int main() {
+    string op;
+    int second_number;
+    int equals;
+    cout << "enter operator: ";
+    cin >> op;
+    cout << "enter second number: ";
+    cin >> second_number;
+    cout << "enter the result: ";
+    cin >> equals;
+    cout << "the value of x is " << main_func(second_number, op, equals);
+    return 0;
+}
